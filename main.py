@@ -35,6 +35,6 @@ def analysis(climite_data_path, city_name):
     plt.show()
 
 print('都市名を入力')
-city_name = input()
+city_name = input().capitalize()
 csvedit.csvedit()
 analysis('./CsvData/'+city_name+'.csv', city_name)
