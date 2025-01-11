@@ -26,3 +26,8 @@ pandas,matplotlibを用いて特定の都市の年間平均気温をプロット
 Python:https://www.python.org  
 Pndas:https://pypi.org/project/pandas/  
 Matplotlib:https://pypi.org/project/matplotlib/  
+
+# 私の実行環境（参考）
+python == 3.13.0  
+pandas == 2.2.3  
+matplotlib == 3.10.0
