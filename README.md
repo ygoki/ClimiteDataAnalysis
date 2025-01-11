@@ -4,7 +4,7 @@ This project analyzes climite data to identify trends in temprature.
 
 気象データは気象庁サイトからダウンロードし，品質情報が充分なもののみを解析しています。（CSVファイルの品質情報の値が5または8のもののみ）
 
-データは2024年までのものを使用しています。
+データは2024年12月までのものを使用しています。
 
 # 方法
 気象庁のサイトからダウンロードしたcsvファイルをcsvedit.pyの処理を行い不要な行を削除し，ヘッダを扱いやすいように書き換えました。
@@ -12,13 +12,14 @@ pandas,matplotlibを用いて特定の都市の年間平均気温をプロット
 気象庁サイトからダウンロードしたCSVファイルを利用しやすい形に一部変更を加えました。
 
 # スクリーンショット
-![サンプル画像](./screenshot/sample.png)
+![サンプル画像](./screenshot/sample1.png)
+![サンプル画像](./screenshot/sample2.png)
 
 # 使い方の例
 1. Pyhonをインストールする
 2. このリポジトリをクローンする:`git clone https://github.com/ygoki/ClimiteDataAnalysis.git`
 3. 必要なライブラリをインストールする:`pip install -r requirements.txt`
-4. 対象のCSVファイルのパスを入力する:`python main.py`
+4. これを実行し，対象の都市名を入力する:`python main.py`
 
 # 参考
 気象庁サイト:https://www.data.jma.go.jp/risk/obsdl/index.php  

@@ -15,4 +15,4 @@ def csvedit():
             df = df[~df[0].str.contains("年月|品質情報", na=False)]
             df.columns  = ['Date', 'Avg_Temp', 'Quality', '均質番号']
             df.to_csv(file_path, index=False)
-            print("CSVデータを書き換えました。")
+            print("CSVデータを書き換えました。:" + file_name)
